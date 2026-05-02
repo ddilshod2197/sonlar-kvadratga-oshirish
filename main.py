@@ -1,0 +1,17 @@
+# Fayl yaratib, unga 10 ta satr yozing va keyin o'qing
+fayl = open("example.txt", "w")
+fayl.write("Satr 1\n")
+fayl.write("Satr 2\n")
+fayl.write("Satr 3\n")
+fayl.write("Satr 4\n")
+fayl.write("Satr 5\n")
+fayl.write("Satr 6\n")
+fayl.write("Satr 7\n")
+fayl.write("Satr 8\n")
+fayl.write("Satr 9\n")
+fayl.write("Satr 10\n")
+fayl.close()
+
+fayl = open("example.txt", "r")
+print(fayl.read())
+fayl.close()
